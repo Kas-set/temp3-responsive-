@@ -1,0 +1,115 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo </div>
+                
+            <div class="list-container" id="nav-list">
+                    <ul >
+                        <li class="inscription">Inscription</li>
+                        <li class="Connexion">Connexion</li>
+                    </ul>
+             </div>          
+                   
+        </nav>     
+        <i class="fa-solid fa-bars" id="menuHam" align="end"> </i>
+
+    </header>
+
+    <main>
+        <h1 align="center">SAUVONS ET PROTEGEONS LA PLANETE</h1>
+         <div class="form-container">
+            <form method = "POST" action="traitement.php" >
+                <fieldset>
+                    <legend>Inscription</legend>
+                    <table>
+                        <tr class="form-row">
+                            <td>
+                                <label for="id_name">Nom</label>
+                            </td>                     
+                            <td>
+                                <input type="text" autocomplete="off" autocapitalize="characters" id="id_name" name="first_name">
+                            </td>
+                        </tr>
+
+                        <tr class="form-row">
+                            <td>
+                                <label for="id_prenom">Prénom</label>
+                            </td>                     
+                            <td>
+                                <input type="text" autocomplete="off" id="id_prenom" name="last_name">
+                            </td>
+                        </tr>  
+                        
+                        <tr class="form-row">
+                            <td>
+                                <label for="id_tel">Tel</label>
+                            </td>                     
+                            <td>
+                                <input type="number" id="id_tel" name="tel">
+                            </td>
+                        </tr>
+                        <tr class="form-row">
+                            <td>
+                                <label for="id_mail">Mail</label>
+                            </td>                     
+                            <td>
+                                <input type="text" autocomplete="off" id="id_mail" name="mail">
+                            </td>
+                        </tr>
+                        <tr class="radio">
+                                               
+                            <td>
+                                <label>Sexe</label>  
+                            </td>
+                            <td>
+                                <label for="id_sexe1" >Masculin</label>
+                                <input type="radio" id="id_sexe1" value="Masculin" name="gender">
+                                <label for="id_sexe2">Féminin</label>
+                                <input type="radio" id="id_sexe2" value="Féminin" name="gender">
+                            </td>
+                        </tr>      
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="buttons">
+                                    <button type="submit" class="submit">Envoyer</button>  <button type="reset" class="reset">Annuler</button>
+                                </div>
+
+                            </td>
+                        </tr> 
+                             
+                    
+                        
+                     </table>
+                     
+                </fieldset>
+                
+            </form>
+         </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+<?php
+
+
+
+
+ 
+?>
